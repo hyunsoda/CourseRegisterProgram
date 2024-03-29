@@ -12,17 +12,21 @@
 <body>
 	<main> 
 		<div class="a">
-			<form action="/searchPw" method="post">
+			<form action="/searchPw" method="post" onsubmit="return validate()">
 				<h1>아이디 찾기</h1>
 				
 				<p>학번을 입력해주세요</p>
-				<input type="text" name="inputNo" required>
-				
+				<input type="text" name="inputNo" id="inputNo" required>
+				<br>
+				<span id="numText"></span>
 				<p>전공을 입력해주세요</p>
-				<input type="text" name="inputMajor" required>
+				<input type="text" name="inputMajor" id="inputMajor" required>
+				<br>
+				<span id="majorText"></span>
 				<br>
 				<br>
-				<button>아이디 찾기</button>
+				<button id="idBtn">아이디 찾기</button>
+				
 			</form>
 			<br>
 			
@@ -38,5 +42,6 @@
 			</script>	
 			<c:remove var="message" scope="session"/>
 		</c:if>
+<script src="/resources/js/searchId.js"></script> 			
 </body>
 </html>

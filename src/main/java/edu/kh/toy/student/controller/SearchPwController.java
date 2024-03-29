@@ -43,10 +43,7 @@ public class SearchPwController extends HttpServlet{
 				resp.sendRedirect(referer);
 			}
 			
-		} catch(InputMismatchException e) {
-			e.printStackTrace();
-		}
-		catch(Exception e) {
+		} catch(Exception e) {
 			e.printStackTrace();
 			System.out.println("비밀번호 찾기 도중 발생한 에러");
 		}
