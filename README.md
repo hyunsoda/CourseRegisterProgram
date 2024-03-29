@@ -36,7 +36,7 @@ Server, Java, Sql을 이용한 toy project입니다.
 본인의 학번과 전공을 입력하면 본인의 아이디를 찾을 수 있다.
 이때 전공은 정확한 이름이 아닌 간단한게 작성하여도 조회가 가능하다
 EX) 컴퓨터공학과  -> 컴퓨터 로 작성하여도 조회가능
-![Uploading 스크린샷(102).png…]()
+![스크린샷(102)](https://github.com/hyunsoda/CourseRegisterProgram/assets/145172657/ca8bd19d-b95d-48f0-940b-4efea5666289)
 ![스크린샷(105)](https://github.com/hyunsoda/CourseRegisterProgram/assets/145172657/c53d31a6-d73a-484b-bf53-7050177588c7)
 
 ### 메인페이지
