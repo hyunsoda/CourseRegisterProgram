@@ -11,7 +11,7 @@ Server, Java, Sql을 이용한 toy project입니다.
 3. REGISTER
    REG_NO, CLS_NO, CLS_NAME, STUDENT_NO, MAJOR
    - 학생들이 수강신청한 내역을 담아두는 테이블
-   - 
+     
 ## 페이지 설명
 ### 로그인 페이지
 서버를 키면 나오는 가장 첫 화면이다.
