@@ -1,6 +1,7 @@
 package edu.kh.toy.student.controller;
 
 import java.io.IOException;
+import java.util.InputMismatchException;
 
 import edu.kh.toy.student.model.dto.Student;
 import edu.kh.toy.student.model.service.StudentService;
@@ -42,7 +43,10 @@ public class SearchPwController extends HttpServlet{
 				resp.sendRedirect(referer);
 			}
 			
-		} catch(Exception e) {
+		} catch(InputMismatchException e) {
+			e.printStackTrace();
+		}
+		catch(Exception e) {
 			e.printStackTrace();
 			System.out.println("비밀번호 찾기 도중 발생한 에러");
 		}

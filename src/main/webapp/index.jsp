@@ -50,7 +50,7 @@
 					<c:when test="${empty classList}">
 					<div class="a">
 					<h1>${sessionScope.loginStudent.studentName}님의 수강신청</h1>
-						<h2>개설된 강의가 없습니다!</h2>
+						<h2>아직 개설된 강의가 없습니다!</h2>
 						<div>
 							<a href="/updateProfile" class="aTag">학과 수정</a>
 						</div>
@@ -86,7 +86,7 @@
 						</div>
 						<section class="section">
 								<div class="height">
-								<a href="/registerList" class="bTag">전체 내역 조회</a>
+								<a href="/registerList" class="bTag">신청 내역 조회</a>
 								</div>
 							<div></div>
 								<div class="height">

@@ -16,7 +16,7 @@
 	
 	<div class="a">
 	<h1>${sessionScope.loginStudent.studentName}님의 신청강의 목록</h1>
-		<h2>등록된 강의가 없습니다</h2>
+		<h2>신청한 강의가 없습니다</h2>
 		<a href ="/back" class="aTag">뒤로가기</a>
 	</div>
 	</c:when>
