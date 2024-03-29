@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    font-family: 'KCC-Hanbit';
+    box-sizing: border-box;
+   
+ 
+    background-repeat: no-repeat;
+
+    text-align: center;
+    
+    
+}
+
+main{
+    background-image: url("../img/bgimg.jpg");
+    background-size: cover;
+   
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.a{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    opacity: 0.9;
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.b{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    opacity: 0.9;
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table{
+    justify-content: center;
+    margin: 15px 15px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 15px;
+    margin: 30px 30px;
+    border-radius: 15px;
+    
+}
+
+.signupbtn{
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 15px;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+.regbtn{
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.cancel{
+    margin-left: 5px;
+    text-decoration: none;
+    color: red;
+    
+}
+
+.height{
+    margin-top: 8px;
+}
+
+.aTag{
+   
+    color: navy;
+    line-height: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.bTag{
+    color: navy;
+    line-height: 23px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+
+
+.b > div {
+    margin-top: 1px;
+    padding: 1px;
+    
+}
+
+#title {
+    padding: 1px;
+    margin-bottom: 1px;
+}
+
+
+.section{
+    display: flex;
+}
+.section>div{
+    width: 90px;
+}
+
+.section > div:first-of-type{
+    flex-basis: 45%;
+}
+.section > div:nth-of-type(2){
+    flex-basis: 10%;
+}
+.section > div:last-of-type{
+    flex-basis: 45%;
+}
+
+
+.infoTable{
+    font-size: 20px;
+    margin-right: 10px;
+}

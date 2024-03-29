@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<entry key="selectAll">
+		SELECT CLS_NO, CLS_NAME, MAJOR FROM CLASS 
+		WHERE MAJOR = ? 
+	</entry>
+	
+	
+	
+</properties>

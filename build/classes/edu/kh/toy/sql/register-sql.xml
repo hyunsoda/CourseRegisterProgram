@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="register">
+		INSERT INTO REGISTER VALUES
+		(SEQ_REGISTER_NUM.NEXTVAL, ?, ?,?)
+	</entry>
+	
+	<entry key="duplicationCheck">
+		SELECT COUNT(*) FROM REGISTER
+		WHERE CLS_NAME = ?
+		AND STUDENT_NO = ?
+	</entry>
+	
+	<entry key="selectAll">
+		SELECT CLS_NAME, MAJOR, REG_NO, STUDENT_NO
+		FROM REGISTER 
+		WHERE STUDENT_NO = ?
+	</entry>
+	
+	<entry key="dropClass">
+		DELETE FROM REGISTER 
+		WHERE REG_NO = ?
+	</entry>
+</properties>
