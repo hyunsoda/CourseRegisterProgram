@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# -ToyProject-
 # -ToyProject-
 =======
 # 수강신청 프로그램 만들기 
